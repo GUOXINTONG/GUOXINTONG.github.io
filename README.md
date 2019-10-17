@@ -1,20 +1,3 @@
-# VBlog
-![](https://img.shields.io/badge/vue-2.5.2-brightgreen.svg) ![](https://img.shields.io/badge/element--ui-2.3.5-brightgreen.svg) ![](https://img.shields.io/badge/vant-1.1.2-brightgreen.svg)
-## 目录
-- [简介](#简介)
-- [演示地址](#演示地址)
-- [项目源码](#项目源码)
-- [项目特点](#项目特点)
-- [更新记录](#更新记录)
-- [快速使用](#快速使用)
-
-## 简介
-
-博客基于 GitHub Pages 与 Github API 实现无后台，可动态发布博客的系统
-博客数据储存于gist 通过Github API 进行增删改查
-喜欢的话留下你的星星╭(●｀∀´●)╯╰(●’◡’●)╮
-
-
 ## 演示地址
 [https://github-laziji.github.io][1]
 
@@ -39,8 +22,7 @@
 - 显示粉丝数量
 - 增加粉丝详情页面
 
-#### 2018.5.15 更新
-- 粉丝页面优化没有粉丝的情况
+##化没有粉丝的情况
 - 修改有的图片越界
 - 配置增加是否自动播放音乐
 - 去除默认音乐
