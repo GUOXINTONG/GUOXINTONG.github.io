@@ -1,8 +1,8 @@
-## 演示地址
-[https://github-laziji.github.io][1]
+## blog
+https://guoxintong.github.io
 
 ## 项目源码
-[https://github.com/GitHub-Laziji/vblog][3]
+[https://github.com/GitHub-Laziji/vblog
 
 ## 项目特点
 
