@@ -14,3 +14,8 @@
 .career-section{padding-bottom:28px}.career-section .section-title{padding-bottom:8px}.career-row{display:grid;grid-template-columns:190px minmax(0,1fr);gap:28px;padding:20px 0;border-bottom:1px solid #edf0f5}.career-date{font:11px/1.8 var(--mono);color:var(--muted);margin:2px 0 0}.career-row h3{font-size:17px;line-height:1.5;font-weight:600;margin:0 0 4px}.career-row h3 span{font-size:13px;font-weight:400;margin-left:8px}.career-org{font-size:13px;margin:0 0 8px;color:var(--ink)}.career-org span{color:var(--muted)}.career-description{font-size:13px;line-height:1.8;margin:0;color:var(--body);max-width:720px}nav{gap:20px}
 @media(max-width:800px){.header{flex-wrap:wrap;height:auto;padding:18px 0;gap:15px}nav{gap:16px;flex-wrap:wrap}.career-row{grid-template-columns:160px minmax(0,1fr);gap:22px}}
 @media(max-width:600px){nav{width:100%;margin:0;justify-content:space-between;gap:8px}.career-row{grid-template-columns:1fr;gap:7px;padding:18px 0}.career-date{font-size:10px}.career-row h3{font-size:17px}}
+
+/* Emphasize conference and submission status. */
+.venue{font:600 15px/1.5 var(--sans);padding:5px 11px;border-width:1px}.paper-top{margin-bottom:12px}.profile h1{font-size:44px}.chinese-name{font-size:.52em}
+@media(max-width:800px){.profile h1{font-size:37px}}
+@media(max-width:600px){.profile h1{font-size:35px}.chinese-name{display:block;margin:10px 0 0}.venue{font-size:14px;padding:5px 9px}}
