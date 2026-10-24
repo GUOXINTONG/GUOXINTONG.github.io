@@ -1,28 +1,98 @@
-// Edit this file to replace illustrative content with your real information.
-// Use null for unavailable links; they will never become broken placeholder links.
+// Paper metadata checked against arXiv on 2026-10-24.
+// Venue labels follow the owner; submission does not imply acceptance.
 window.siteContent = {
-  role: 'Researcher · [Your institution / team]',
-  intro: 'I explore how intelligent systems can understand the world and work with people. This is a space for my research, experiments, and ideas in progress. [Replace with your personal introduction.]',
-  interests: ['Multimodal intelligence', 'Human–AI interaction', 'Efficient learning'],
-  publications: [
-    { id: 'stream', category: 'multimodal', type: 'RESEARCH PROJECT', year: '20XX', title: 'Understanding a world that never stands still', description: 'Exploring continuous perception and contextual reasoning for real-time multimodal assistants.', authors: 'Your name, Collaborator A, Collaborator B', venue: '[Conference / journal · year]', art: 'stream', tags: ['Streaming video', 'Multimodal'], paper: null, code: null },
-    { id: 'dialogue', category: 'multimodal', type: 'RESEARCH PROJECT', year: '20XX', title: 'From seeing and hearing to meaningful interaction', description: 'Connecting vision, language, and sound to make human–AI collaboration feel more natural.', authors: 'Collaborator A, Your name, Collaborator B', venue: '[Conference / journal · year]', art: 'dialogue', tags: ['Interaction', 'Omnimodal'], paper: null, code: null },
-    { id: 'efficient', category: 'systems', type: 'RESEARCH PROJECT', year: '20XX', title: 'More capability. A smaller footprint.', description: 'Investigating practical ways to make capable models faster, lighter, and more accessible.', authors: 'Your name, Collaborator A', venue: '[Conference / journal · year]', art: 'efficient', tags: ['Efficiency', 'On-device AI'], paper: null, code: null },
-    { id: 'benchmark', category: 'multimodal', type: 'RESEARCH PROJECT', year: '20XX', title: 'Asking better questions of intelligent systems', description: 'Designing evaluations that connect model capabilities to the complexity of everyday situations.', authors: 'Collaborator A, Your name', venue: '[Conference / journal · year]', art: 'benchmark', tags: ['Evaluation', 'Real-world AI'], paper: null, code: null }
-  ],
-  news: [
-    { date: '20XX / 10', label: 'PROJECT', text: '[Share a new project, open-source release, or research direction.]' },
-    { date: '20XX / 08', label: 'PAPER', text: '[Add a publication update and a link to the paper.]' },
-    { date: '20XX / 06', label: 'LIFE', text: '[A new role, a meaningful milestone, or something you learned.]' },
-    { date: '20XX / 04', label: 'TALK', text: '[Add an invited talk, workshop, or conference presentation.]' },
-    { date: '20XX / 01', label: 'NOTE', text: '[An earlier update from your research journey.]' }
-  ],
-  work: [
-    { date: '20XX — PRESENT', title: '[Current role]', organization: '[Company / research lab]', description: 'A short description of your focus and responsibilities.' },
-    { date: '20XX — 20XX', title: '[Previous role]', organization: '[Company / research lab]', description: 'A sentence about a project or contribution that mattered.' }
-  ],
-  education: [
-    { date: '20XX — 20XX', title: '[Degree · field of study]', organization: '[University name]', description: 'Research area, advisor, or selected achievements.' },
-    { date: '20XX — 20XX', title: '[Degree · field of study]', organization: '[University name]', description: 'Add relevant studies, honors, or activities.' }
+  "publications": [
+    {
+      "id": "aura",
+      "name": "AURA",
+      "category": "systems",
+      "venue": "arXiv · 2026",
+      "status": "preprint",
+      "title": "AURA: Always-On Understanding and Real-Time Assistance via Video Streams",
+      "authors": "Xudong Lu, Yang Bo, Jinpeng Chen, Shuhan Li, Xintong Guo, Huankang Guan, Fang Liu, Dunyuan Xu, Peiwen Sun, Heyang Sun, Rui Liu, Hongsheng Li",
+      "description": "An end-to-end streaming visual interaction framework for continuous observation, real-time question answering, and proactive responses.",
+      "detail": "AURA combines streaming context management, a coarse-to-fine data engine, a silent-speech balanced training objective, and an inference framework for long-horizon interaction.",
+      "paper": "https://arxiv.org/abs/2604.04184",
+      "code": "https://github.com/aurateam2026/AURA",
+      "project": null,
+      "tags": [
+        "Streaming VideoLLM",
+        "Proactive interaction"
+      ],
+      "diagram": [
+        "VIDEO STREAM",
+        "CONTEXT + VideoLLM",
+        "OBSERVE / RESPOND"
+      ]
+    },
+    {
+      "id": "phostream",
+      "name": "PhoStream",
+      "category": "benchmarks",
+      "venue": "ICML 2026",
+      "status": "accepted",
+      "title": "PhoStream: Benchmarking Real-World Streaming for Omnimodal Assistants in Mobile Scenarios",
+      "authors": "Xudong Lu, Huankang Guan, Yang Bo, Jinpeng Chen, Xintong Guo, Shuhan Li, Fang Liu, Peiwen Sun, Xueying Li, Wei Zhang, Xue Yang, Rui Liu, Hongsheng Li",
+      "description": "A mobile-centric benchmark for audio-visual understanding and response timing across on-screen and off-screen scenarios.",
+      "detail": "PhoStream evaluates open-ended responses with an online inference pipeline. It contains 5,572 QA pairs from 578 videos and probes instant, backward, and forward temporal reasoning.",
+      "paper": "https://arxiv.org/abs/2601.22575",
+      "code": "https://github.com/Lucky-Lance/PhoStream",
+      "project": null,
+      "tags": [
+        "Omnimodal evaluation",
+        "Response timing"
+      ],
+      "diagram": [
+        "VIDEO + AUDIO",
+        "ONLINE EVALUATION",
+        "WHAT / WHEN"
+      ]
+    },
+    {
+      "id": "xstream",
+      "name": "X-Stream",
+      "category": "benchmarks",
+      "venue": "ECCV 2026",
+      "status": "accepted",
+      "title": "X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding",
+      "authors": "Peiwen Sun, Xudong Lu, Huadai Liu, Yang Bo, Dongming Wu, Huankang Guan, Minghong Cai, Jinpeng Chen, Xintong Guo, Shuhan Li, Fang Liu, Rui Liu, Xiangyu Yue",
+      "description": "A benchmark for continuous reasoning across concurrent video streams, studying MLLMs through the lens of signal multiplexing.",
+      "detail": "X-Stream comprises 4,220 QA pairs across 932 videos and 11 subtasks. Its multi-window, multi-view, and multi-device settings require evidence from multiple streams.",
+      "paper": "https://arxiv.org/abs/2606.02482",
+      "code": null,
+      "project": "https://peiwensun2000.github.io/xstream/",
+      "tags": [
+        "Multi-stream reasoning",
+        "Multiplexing"
+      ],
+      "diagram": [
+        "STREAM A / B / C",
+        "MULTIPLEXER",
+        "CROSS-STREAM QA"
+      ]
+    },
+    {
+      "id": "fastbench",
+      "name": "FastBench",
+      "category": "benchmarks",
+      "venue": "ICLR 2027 submission",
+      "status": "submission",
+      "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
+      "authors": "Yuxuan Hu, Weikang Shi, Yang Bo, Xudong Lu, Xintong Guo, Shuhan Li, Yuyang He, Huankang Guan, Peiwen Sun, Yunqiao Yang, Wenbo Li, Rui Liu, Hongsheng Li",
+      "description": "Evaluating high-dynamic perception in real-world streams and adaptive temporal sampling under bounded context budgets.",
+      "detail": "FastBench contains 306 QA pairs across eight domains and six capabilities, with annotated evidence intervals. Its ProactiveFrame baseline adapts incoming frame rates and uses a dual-tier sliding window.",
+      "paper": "https://arxiv.org/abs/2610.12427",
+      "code": "https://github.com/Ashone3/FastBench",
+      "project": null,
+      "tags": [
+        "High-dynamic perception",
+        "Adaptive sampling"
+      ],
+      "diagram": [
+        "HIGH-FPS INPUT",
+        "ADAPTIVE SAMPLING",
+        "TEMPORAL EVIDENCE"
+      ]
+    }
   ]
 };
