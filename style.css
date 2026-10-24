@@ -19,3 +19,5 @@
 .venue{font:600 15px/1.5 var(--sans);padding:5px 11px;border-width:1px}.paper-top{margin-bottom:12px}.profile h1{font-size:44px}.chinese-name{font-size:.52em}
 @media(max-width:800px){.profile h1{font-size:37px}}
 @media(max-width:600px){.profile h1{font-size:35px}.chinese-name{display:block;margin:10px 0 0}.venue{font-size:14px;padding:5px 9px}}
+
+.equal-marker{color:var(--accent);font-size:10px;font-weight:600;margin-left:2px}.contribution-note{font-size:11px;color:var(--accent);margin:-3px 0 11px}.education-detail{display:grid;grid-template-columns:112px minmax(0,1fr);gap:24px;align-items:start}.school-logo{display:block;object-fit:contain;max-width:100%;height:auto}.mcmaster-logo{width:112px;margin-top:8px}.beihang-logo{width:72px;margin:0 auto}@media(max-width:600px){.education-detail{grid-template-columns:85px minmax(0,1fr);gap:16px}.mcmaster-logo{width:85px}.beihang-logo{width:64px}}

@@ -29,3 +29,6 @@ External Google Fonts have local fallbacks. No tokens or credentials belong in t
 Paper titles, author order, and technical summaries were checked against the supplied arXiv pages on 2026-10-24. Conference labels follow the owner; ICML and ECCV labels are also present on the linked project resources. AURA and FastBench ICLR 2027 submission statuses were supplied by the owner; neither implies acceptance. Paper figures are owner-supplied aura.jpg, phostream.jpg, xstream.jpg, and fastbench.png, displayed without cropping. Experience and education were read from the owner’s LinkedIn profile on 2026-10-24: https://www.linkedin.com/in/xintong-terry-guo/. Biography uses the supplied Chinese name 郭欣桐 and English name Terry.
 
 Include all four paper images when publishing. Click a paper figure to view the full-resolution original.
+
+AURA co-first authors are marked with * per the owner: Xudong Lu, Yang Bo, Jinpeng Chen, Shuhan Li, Xintong Guo, Huankang Guan.
+University marks are used to identify education: McMaster official brand asset (https://brand.mcmaster.ca/app/uploads/2024/03/McMaster-logo.png), Beihang official emblem (https://www.buaa.edu.cn/xygk/jrbh0116old/bhxh.htm). Publish mcmaster-logo.png and beihang-logo.jpg alongside the site files.

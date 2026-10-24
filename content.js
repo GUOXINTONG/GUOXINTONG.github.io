@@ -4,6 +4,7 @@ window.siteContent = {
   "publications": [
     {
       "id": "aura",
+      "equalContribution": ["Xudong Lu", "Yang Bo", "Jinpeng Chen", "Shuhan Li", "Xintong Guo", "Huankang Guan"],
       "image": "aura.jpg",
       "imageAlt": "AURA streaming interaction architecture with video chunks, user questions, assistant responses, and audio output.",
       "name": "AURA",
