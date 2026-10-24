@@ -4,6 +4,8 @@ window.siteContent = {
   "publications": [
     {
       "id": "aura",
+      "image": "aura.jpg",
+      "imageAlt": "AURA streaming interaction architecture with video chunks, user questions, assistant responses, and audio output.",
       "name": "AURA",
       "category": "systems",
       "venue": "arXiv · 2026",
@@ -27,6 +29,8 @@ window.siteContent = {
     },
     {
       "id": "phostream",
+      "image": "phostream.jpg",
+      "imageAlt": "PhoStream data distribution across YouTube Vlog, Phone Tutorial, Phone Record, and EgoBlind.",
       "name": "PhoStream",
       "category": "benchmarks",
       "venue": "ICML 2026",
@@ -50,6 +54,8 @@ window.siteContent = {
     },
     {
       "id": "xstream",
+      "image": "xstream.jpg",
+      "imageAlt": "X-Stream multi-angle, multi-view, and multi-device video scenarios.",
       "name": "X-Stream",
       "category": "benchmarks",
       "venue": "ECCV 2026",
@@ -73,6 +79,8 @@ window.siteContent = {
     },
     {
       "id": "fastbench",
+      "image": "fastbench.png",
+      "imageAlt": "FastBench dataset construction and vision expert verification pipeline.",
       "name": "FastBench",
       "category": "benchmarks",
       "venue": "ICLR 2027 submission",
