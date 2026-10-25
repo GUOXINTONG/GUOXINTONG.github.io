@@ -34,3 +34,5 @@ AURA co-first authors are marked with * per the owner: Xudong Lu, Yang Bo, Jinpe
 University marks are used to identify education: McMaster official brand asset (https://brand.mcmaster.ca/app/uploads/2024/03/McMaster-logo.png), Beihang official emblem (https://www.buaa.edu.cn/xygk/jrbh0116old/bhxh.htm). Publish mcmaster-logo.png and beihang-logo.jpg alongside the site files.
 
 Projects section: owner-confirmed participation in Ericsson Cloud RAN, BiSheng Compiler, and Huawei Cloud HetuEngine. Product summaries use the official links displayed on each entry. Individual contribution scope is intentionally limited to confirmed information. Project entries are edited in index.html. Stylesheet version is bumped for browser cache refresh.
+
+Project figures (project-*.svg) are original conceptual illustrations, not official product architecture diagrams or logos. Publish all three SVG files with index.html and style.css.
