@@ -109,8 +109,6 @@ h2{font:600 30px/1.2 var(--serif);letter-spacing:-.4px;margin:0}
 .paper-figure a:hover .figure-frame::after{opacity:1;transform:none}
 .paper-figure figcaption{display:flex;justify-content:space-between;gap:12px;padding:10px 2px 0;font:500 10px var(--mono);letter-spacing:.5px}
 .paper-figure a:hover figcaption span:last-child{color:var(--accent)}
-.paper-wide{grid-template-columns:1fr;gap:22px}
-.paper-wide .figure-frame{aspect-ratio:auto;padding:18px}
 .paper-top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:12px}
 .venue{font:600 13px/1.4 var(--sans);padding:5px 12px;border-radius:999px;color:var(--accent-deep);background:var(--accent-soft);border:1px solid #d3defb}
 .venue.accepted::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:currentColor;margin-right:8px;vertical-align:2px}

@@ -56,7 +56,6 @@ window.siteContent = {
     {
       "id": "xstream",
       "image": "xstream.jpg",
-      "figureLayout": "wide",
       "imageAlt": "X-Stream multi-angle, multi-view, and multi-device video scenarios.",
       "name": "X-Stream",
       "category": "benchmarks",
