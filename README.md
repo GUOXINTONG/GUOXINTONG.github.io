@@ -9,18 +9,19 @@ Selected work: AURA (ICLR 2027 submission), PhoStream (ICML 2026), X-Stream (ECC
 
 ## Editing
 
-- `content.js`: verified paper metadata, authors, summaries, and links.
+- `content.js`: verified paper metadata, authors, summaries, and links. Set `"figureLayout": "wide"` on a paper whose figure is much wider than 16:10 (e.g. X-Stream) to show it full-width above the text.
 - Run `node build.mjs` after changing paper metadata. This generates the publication section in `index.html`, so all papers remain readable without JavaScript and can be indexed.
 - `index.html`: biography, navigation, research focus, updates, and contact.
 - `style.css`: responsive academic layout, typography, and colors.
-- `script.js`: progressive enhancement for publication filters and navigation.
+- `script.js`: progressive enhancement for publication filters, navigation, the figure lightbox, and scroll reveal.
+- The research-focus diagram is an inline SVG in `index.html`.
 - `portrait.jpg`: owner-supplied original photo, converted from HEIC and resized proportionally. Metadata is not retained. No generative modification or cropping.
 
 No dependencies are required. Preview with `python3 -m http.server 8000`.
 
 ## Publishing
 
-GitHub Pages serves `main / (root)`. Upload `index.html`, `style.css`, `script.js`, `content.js`, `build.mjs`, `favicon.svg`, `portrait.jpg`, and this README to update the website. The optional `.nojekyll` disables Jekyll processing.
+GitHub Pages serves `main / (root)`. Upload `index.html`, `style.css`, `script.js`, `content.js`, `build.mjs`, `favicon.svg`, `portrait.jpg`, the paper figures, `project-*.svg`, the two school logos, and this README to update the website. The optional `.nojekyll` disables Jekyll processing.
 
 External Google Fonts have local fallbacks. No tokens or credentials belong in this repository.
 

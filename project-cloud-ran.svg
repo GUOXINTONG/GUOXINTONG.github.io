@@ -1,1 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300"><defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#e6ecf5" stroke-width="1"/></pattern><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#426b9b"/></marker></defs><rect width="480" height="300" fill="#f7f9fc"/><rect width="480" height="300" fill="url(#grid)"/><g font-family="Helvetica,Arial,sans-serif" fill="#22334b"><text x="24" y="32" font-size="13" fill="#2359ba">01 / CLOUD RAN</text><text x="24" y="275" font-size="11" fill="#526784">RADIO ACCESS · CLOUD INFRASTRUCTURE</text><g stroke="#2359ba" stroke-width="3" fill="none"><path d="M60 214L98 116L136 214M74 177H122M82 154H114M67 196H129M76 213L120 153M120 213L78 153"/><circle cx="98" cy="105" r="5" fill="#2359ba"/><path d="M82 88Q66 105 82 122M114 88Q130 105 114 122M71 76Q44 105 71 134M125 76Q152 105 125 134"/></g><path d="M155 150L214 150" stroke="#426b9b" stroke-width="2" marker-end="url(#arrow)"/><rect x="232" y="76" width="215" height="147" rx="5" fill="white" stroke="#adc0db"/><text x="244" y="154.5" font-size="14" fill="#526784"></text><text x="249" y="102" font-size="12" fill="#2359ba">CLOUD PLATFORM</text><rect x="250" y="118" width="178" height="37" rx="5" fill="white" stroke="#adc0db"/><text x="262" y="141.5" font-size="14" fill="#526784">Virtualized RAN</text><rect x="250" y="169" width="178" height="36" rx="5" fill="white" stroke="#adc0db"/><text x="262" y="192.0" font-size="14" fill="#526784">Compute resources</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Radio tower streaming signals to virtualized RAN functions in the cloud">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f7ff"/><stop offset="1" stop-color="#e9f0fb"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f7cff"/><stop offset="1" stop-color="#2647c9"/></linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#6d4ee0"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1e3a8a" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="480" height="300" fill="url(#bg)"/>
+  <circle cx="400" cy="70" r="130" fill="#4f7cff" opacity=".06"/>
+  <circle cx="60" cy="290" r="90" fill="#14b8a6" opacity=".06"/>
+  <g font-family="'JetBrains Mono',Menlo,monospace">
+    <circle cx="32" cy="32" r="4" fill="#2f5bea"/>
+    <text x="44" y="36" font-size="11" letter-spacing="1.5" fill="#2f5bea">CLOUD RAN</text>
+  </g>
+
+  <path d="M48 238H176" stroke="#c3d0e6" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="#1c2b45" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M84 236L112 108L140 236"/>
+    <path d="M93 196H131M100 164H124M106 136H118M90 214L124 164M134 214L100 164"/>
+  </g>
+  <circle cx="112" cy="100" r="7" fill="url(#blue)"/>
+  <g fill="none" stroke="#14b8a6" stroke-width="3" stroke-linecap="round">
+    <path d="M95 82A24 24 0 0 0 95 118M129 82A24 24 0 0 1 129 118"><animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/></path>
+    <path d="M82 70A42 42 0 0 0 82 130M142 70A42 42 0 0 1 142 130" opacity=".6"><animate attributeName="opacity" values=".6;.15;.6" dur="2.4s" begin=".3s" repeatCount="indefinite"/></path>
+    <path d="M69 58A60 60 0 0 0 69 142M155 58A60 60 0 0 1 155 142" opacity=".3"><animate attributeName="opacity" values=".3;.05;.3" dur="2.4s" begin=".6s" repeatCount="indefinite"/></path>
+  </g>
+
+  <path id="link" d="M164 150C200 150 214 158 254 158" fill="none" stroke="#8aa3d6" stroke-width="2" stroke-dasharray="4 6" stroke-linecap="round"/>
+  <circle r="4" fill="#2f5bea"><animateMotion dur="1.8s" repeatCount="indefinite"><mpath href="#link"/></animateMotion></circle>
+  <circle r="4" fill="#14b8a6"><animateMotion dur="1.8s" begin=".9s" repeatCount="indefinite"><mpath href="#link"/></animateMotion></circle>
+
+  <path d="M262 206H432A36 36 0 0 0 428 134A54 54 0 0 0 326 108A42 42 0 0 0 264 150A28 28 0 0 0 262 206Z" fill="#fff" stroke="#c3d0e6" stroke-width="2" filter="url(#shadow)"/>
+  <g>
+    <rect x="290" y="144" width="38" height="38" rx="9" fill="url(#blue)"/>
+    <rect x="337" y="144" width="38" height="38" rx="9" fill="url(#teal)"/>
+    <rect x="384" y="144" width="38" height="38" rx="9" fill="url(#violet)"/>
+    <g stroke="#fff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".95">
+      <path d="M300 157H318M300 163H314M300 169H318"/>
+      <path d="M347 172V160M356 172V154M365 172V164"/>
+      <circle cx="403" cy="163" r="7"/><path d="M403 152V156M403 170V174M392 163H396M410 163H414"/>
+    </g>
+  </g>
+  <text x="356" y="198" text-anchor="middle" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#64748b">VIRTUALIZED RAN</text>
+  <text x="28" y="272" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#7a879b">RADIO ACCESS → CLOUD-NATIVE FUNCTIONS</text>
+</svg>

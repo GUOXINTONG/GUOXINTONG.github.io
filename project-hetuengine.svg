@@ -1,1 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300"><defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#e6ecf5" stroke-width="1"/></pattern><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#426b9b"/></marker></defs><rect width="480" height="300" fill="#f7f9fc"/><rect width="480" height="300" fill="url(#grid)"/><g font-family="Helvetica,Arial,sans-serif" fill="#22334b"><text x="24" y="32" font-size="13" fill="#2359ba">03 / HETUENGINE</text><text x="24" y="275" font-size="11" fill="#526784">FEDERATED QUERY · UNIFIED ACCESS</text><rect x="147" y="57" width="188" height="39" rx="5" fill="white" stroke="#adc0db"/><text x="159" y="81.5" font-size="14" fill="#526784">SQL query</text><path d="M241 100L241 123" stroke="#426b9b" stroke-width="2" marker-end="url(#arrow)"/><rect x="125" y="133" width="232" height="42" rx="5" fill="white" stroke="#adc0db"/><text x="137" y="159.0" font-size="14" fill="#526784">Query &amp; execution engine</text><path d="M241 180L90 204" stroke="#426b9b" stroke-width="2" marker-end="url(#arrow)"/><rect x="34" y="215" width="114" height="34" rx="5" fill="white" stroke="#adc0db"/><text x="46" y="237.0" font-size="14" fill="#526784">Lake</text><path d="M241 180L239 204" stroke="#426b9b" stroke-width="2" marker-end="url(#arrow)"/><rect x="183" y="215" width="114" height="34" rx="5" fill="white" stroke="#adc0db"/><text x="195" y="237.0" font-size="14" fill="#526784">Database</text><path d="M241 180L388 204" stroke="#426b9b" stroke-width="2" marker-end="url(#arrow)"/><rect x="332" y="215" width="114" height="34" rx="5" fill="white" stroke="#adc0db"/><text x="344" y="237.0" font-size="14" fill="#526784">Warehouse</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="A single SQL query federated by an engine across a data lake, a database, and a data warehouse">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f7ff"/><stop offset="1" stop-color="#e8f4f6"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f7cff"/><stop offset="1" stop-color="#2647c9"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1e3a8a" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="480" height="300" fill="url(#bg)"/>
+  <circle cx="240" cy="150" r="120" fill="#14b8a6" opacity=".05"/>
+  <g font-family="'JetBrains Mono',Menlo,monospace">
+    <circle cx="32" cy="32" r="4" fill="#2f5bea"/>
+    <text x="44" y="36" font-size="11" letter-spacing="1.5" fill="#2f5bea">HETUENGINE</text>
+  </g>
+
+  <g filter="url(#shadow)"><rect x="146" y="50" width="188" height="42" rx="10" fill="#fff"/></g>
+  <text x="162" y="76" font-family="'JetBrains Mono',Menlo,monospace" font-size="12" fill="#334155"><tspan fill="#2f5bea" font-weight="600">SELECT</tspan> * <tspan fill="#2f5bea" font-weight="600">FROM</tspan> <tspan fill="#0d9488">lake</tspan> ⋈ <tspan fill="#6d4ee0">dw</tspan></text>
+  <path d="M240 96V112" stroke="#8aa3d6" stroke-width="2" stroke-linecap="round"/>
+
+  <g fill="none" stroke="#8aa3d6" stroke-width="2" stroke-dasharray="4 6" stroke-linecap="round">
+    <path id="l1" d="M92 202C92 176 180 176 214 160"/>
+    <path id="l2" d="M240 202V180"/>
+    <path id="l3" d="M388 202C388 176 300 176 266 160"/>
+  </g>
+  <circle r="3.5" fill="#14b8a6"><animateMotion dur="2s" repeatCount="indefinite"><mpath href="#l1"/></animateMotion></circle>
+  <circle r="3.5" fill="#2f5bea"><animateMotion dur="2s" begin=".5s" repeatCount="indefinite"><mpath href="#l2"/></animateMotion></circle>
+  <circle r="3.5" fill="#6d4ee0"><animateMotion dur="2s" begin="1s" repeatCount="indefinite"><mpath href="#l3"/></animateMotion></circle>
+
+  <g filter="url(#shadow)"><path d="M240 112L274 131.5V170.5L240 190L206 170.5V131.5Z" fill="url(#blue)"/></g>
+  <g stroke="#fff" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M226 140H254M230 151H250M234 162H246"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="44" y="204" width="96" height="62" rx="12" fill="#fff"/>
+    <rect x="192" y="204" width="96" height="62" rx="12" fill="#fff"/>
+    <rect x="340" y="204" width="96" height="62" rx="12" fill="#fff"/>
+  </g>
+  <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M74 222Q80 216 86 222T98 222T110 222M74 232Q80 226 86 232T98 232T110 232" stroke="#14b8a6"/>
+    <g stroke="#2f5bea"><ellipse cx="240" cy="218" rx="14" ry="5"/><path d="M226 218V234Q240 242 254 234V218M226 226Q240 234 254 226"/></g>
+    <g stroke="#6d4ee0"><path d="M372 238V222L388 214L404 222V238Z"/><path d="M380 238V230H396V238"/></g>
+  </g>
+  <g font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing=".5" fill="#64748b" text-anchor="middle">
+    <text x="92" y="257">LAKE</text><text x="240" y="257">DATABASE</text><text x="388" y="257">WAREHOUSE</text>
+  </g>
+  <text x="28" y="288" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#7a879b">ONE QUERY · FEDERATED SOURCES</text>
+</svg>
