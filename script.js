@@ -60,7 +60,7 @@ if ('IntersectionObserver' in window) {
       setTimeout(() => item.classList.remove('reveal', 'visible'), 700);
     });
   }, {rootMargin:'0px 0px -8% 0px'});
-  document.querySelectorAll('.paper, .project-card, .career-row, .education-card, .pipeline').forEach(item => {
+  document.querySelectorAll('.paper, .project-card, .career-row, .education-card').forEach(item => {
     if (item.getBoundingClientRect().top > window.innerHeight) {
       item.classList.add('reveal');
       reveal.observe(item);

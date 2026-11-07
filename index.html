@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
 <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
-<link rel="stylesheet" href="style.css?v=20261107-claude"><script src="script.js?v=20261107-claude" defer></script>
+<link rel="stylesheet" href="style.css?v=20261107-concise"><script src="script.js?v=20261107-concise" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -22,50 +22,16 @@
 <h1>Xintong(Terry) Guo <span class="chinese-name" lang="zh-CN">郭欣桐</span></h1>
 <p class="preferred-name">AI Researcher at <strong>Huawei Hong Kong Research Center</strong></p>
 <p class="bio">I work on multimodal large language model data and algorithms. My research focuses on <strong>streaming video understanding</strong> with multimodal large language models — continuous perception, real-time interaction, and the evaluation of intelligent systems in dynamic environments.</p>
-<blockquote class="research-question">How can models understand events as they unfold, retain relevant context, and respond at the right moment?</blockquote>
 <div class="profile-links"><a class="button primary" href="#publications">Selected publications <span aria-hidden="true">↓</span></a><a class="button" href="https://www.linkedin.com/in/xintong-terry-guo/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="button" href="https://github.com/GUOXINTONG" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
-<dl class="stats"><div><dt>Selected papers</dt><dd>4</dd></div><div><dt>Accepted 2026</dt><dd>ICML · ECCV</dd></div><div><dt>Industry AI since</dt><dd>2019</dd></div></dl>
+<dl class="stats"><div><dt>Selected papers</dt><dd>4</dd></div><div><dt>Industry AI since</dt><dd>2019</dd></div></dl>
 </div>
 <figure class="portrait"><div class="portrait-frame"><img src="portrait.jpg" width="1200" height="900" alt="Xintong Guo standing with arms outstretched in a green field surrounded by mountains" fetchpriority="high"><span class="portrait-chip"><span aria-hidden="true"></span>Hong Kong SAR</span></div><figcaption><span>XINTONG GUO</span><span>RESEARCH PROFILE</span></figcaption></figure>
 </section>
 
 <section id="research" class="research-section"><div class="section-title"><div><span class="section-index">01</span><h2>Research focus</h2></div><span class="section-meta">STREAMING VIDEO UNDERSTANDING</span></div>
-<div class="research-layout">
-<div class="research-statement"><h3>From video understanding to continuous interaction.</h3><p>Connecting model design and evaluation across three questions.</p>
-<ol class="questions"><li><span>01</span><div><strong>What to perceive</strong><p>Selecting informative frames from high-dynamic, multi-stream input.</p></div></li><li><span>02</span><div><strong>What to retain</strong><p>Keeping relevant context under a bounded memory budget.</p></div></li><li><span>03</span><div><strong>When to respond</strong><p>Deciding the right moment to stay silent, answer, or act proactively.</p></div></li></ol>
-<div class="topic-tags"><span>Streaming VideoLLMs</span><span>Temporal reasoning</span><span>Proactive interaction</span></div></div>
-<figure class="pipeline">
-<svg viewBox="0 0 560 344" role="img" aria-labelledby="pipeline-title"><title id="pipeline-title">Conceptual view: a continuous video stream with bounded past context flows through perception, context retention, and response timing.</title>
-<defs>
-<symbol id="scene" viewBox="0 0 80 60"><rect width="80" height="60" fill="#EFE7D7"/><path d="M0 46L18 28L30 38L46 20L62 34L80 24V60H0Z" fill="#D8C6A5"/><rect y="48" width="80" height="12" fill="#C9D3B4"/></symbol>
-<clipPath id="frame-clip"><rect width="80" height="60" rx="8"/></clipPath>
-<linearGradient id="axis" x1="0" x2="1"><stop offset="0" stop-color="#DCD8CB"/><stop offset="1" stop-color="#D97757"/></linearGradient>
-<linearGradient id="respond" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E39274"/><stop offset="1" stop-color="#C15F3C"/></linearGradient>
-</defs>
-<g class="svg-mono" font-size="10" fill="#73726C" letter-spacing="1"><text x="24" y="30">CONTINUOUS INPUT</text></g>
-<g class="live"><rect x="482" y="17" width="54" height="20" rx="10" fill="#fff" stroke="#E8E6DC"/><circle class="live-dot" cx="496" cy="27" r="4" fill="#D4543A"/><text class="svg-mono" x="505" y="31" font-size="10" font-weight="600" fill="#141413">LIVE</text></g>
-<g transform="translate(24 66)" opacity=".35"><g clip-path="url(#frame-clip)"><use href="#scene" width="80" height="60"/></g><circle cx="16" cy="44" r="4.5" fill="#D97757"/></g>
-<g transform="translate(110 66)" opacity=".5"><g clip-path="url(#frame-clip)"><use href="#scene" width="80" height="60"/></g><circle cx="26" cy="34" r="4.5" fill="#D97757"/></g>
-<g transform="translate(196 66)" opacity=".65"><g clip-path="url(#frame-clip)"><use href="#scene" width="80" height="60"/></g><circle cx="36" cy="28" r="4.5" fill="#D97757"/></g>
-<g transform="translate(282 66)" opacity=".82"><g clip-path="url(#frame-clip)"><use href="#scene" width="80" height="60"/></g><circle cx="46" cy="32" r="4.5" fill="#D97757"/></g>
-<g transform="translate(368 66)"><rect class="pulse" x="-5" y="-5" width="90" height="70" rx="12" fill="#D97757" opacity=".14"/><g clip-path="url(#frame-clip)"><use href="#scene" width="80" height="60"/></g><rect width="80" height="60" rx="8" fill="none" stroke="#D97757" stroke-width="2.5"/><circle cx="56" cy="40" r="5" fill="#788C5D"/></g>
-<rect x="455" y="67" width="78" height="58" rx="8" fill="none" stroke="#BDB7A7" stroke-width="1.5" stroke-dasharray="4 4"/><text x="494" y="102" text-anchor="middle" font-size="18" fill="#BDB7A7">?</text>
-<rect x="390" y="42" width="36" height="17" rx="8.5" fill="#D97757"/><text class="svg-mono" x="408" y="54" text-anchor="middle" font-size="9" font-weight="600" fill="#fff" letter-spacing=".5">NOW</text>
-<g class="svg-mono" font-size="10" fill="#73726C" text-anchor="middle"><text x="64" y="142">t−4</text><text x="150" y="142">t−3</text><text x="236" y="142">t−2</text><text x="322" y="142">t−1</text><text x="408" y="142" fill="#D97757" font-weight="600">t</text><text x="494" y="142">t+1</text></g>
-<path d="M24 154H530" stroke="url(#axis)" stroke-width="2" stroke-linecap="round"/><path d="M526 150L532 154L526 158" fill="none" stroke="#D97757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 162V168H362V162" fill="none" stroke="#BDB7A7" stroke-width="1.5"/><text class="svg-mono" x="193" y="184" text-anchor="middle" font-size="10" fill="#73726C">bounded past context</text>
-<g fill="none" stroke="#BDB7A7" stroke-width="1.5" stroke-linecap="round"><path d="M102 188V200M98 196L102 200L106 196"/><path d="M279 188V200M275 196L279 200L283 196"/><path d="M456 188V200M452 196L456 200L460 196"/></g>
-<g class="svg-sans">
-<rect x="24" y="206" width="156" height="92" rx="14" fill="#fff" stroke="#E8E6DC"/><circle cx="52" cy="236" r="16" fill="#F7E6DC"/><g fill="none" stroke="#D97757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M42 236Q52 227 62 236Q52 245 42 236Z"/><circle cx="52" cy="236" r="3"/></g><text x="76" y="241" font-size="15" font-weight="600" fill="#141413">Perceive</text><text x="40" y="278" font-size="11.5" fill="#73726C">what to perceive</text>
-<rect x="201" y="206" width="156" height="92" rx="14" fill="#fff" stroke="#E8E6DC"/><circle cx="229" cy="236" r="16" fill="#E9EDDF"/><g fill="none" stroke="#657A4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M220 232L229 227L238 232L229 237Z"/><path d="M220 236L229 241L238 236"/><path d="M220 240L229 245L238 240"/></g><text x="253" y="241" font-size="15" font-weight="600" fill="#141413">Retain</text><text x="217" y="278" font-size="11.5" fill="#73726C">what to retain</text>
-<rect x="378" y="206" width="156" height="92" rx="14" fill="url(#respond)"/><circle cx="406" cy="236" r="16" fill="#fff" fill-opacity=".18"/><g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M398 229H414A2 2 0 0 1 416 231V239A2 2 0 0 1 414 241H404L399 245V241H398A2 2 0 0 1 396 239V231A2 2 0 0 1 398 229Z"/></g><text x="430" y="241" font-size="15" font-weight="600" fill="#fff">Respond</text><text x="394" y="278" font-size="11.5" fill="#FBE6DC">when to respond</text>
-</g>
-<g fill="none" stroke="#BDB7A7" stroke-width="1.5" stroke-linecap="round"><path d="M184 252H196M192 248L196 252L192 256"/><path d="M361 252H373M369 248L373 252L369 256"/></g>
-<text class="svg-mono" x="24" y="330" font-size="10" fill="#8E8D86" letter-spacing=".5">Online understanding · bounded context · response timing</text>
-</svg>
-<figcaption>Conceptual view</figcaption>
-</figure>
-</div></section>
+<p class="research-lead">Teaching multimodal models to follow live video: what to see, what to remember, and when to speak.</p>
+<ol class="questions"><li><span>01</span><strong>Perceive</strong><p>Pick informative frames from fast, multi-stream input.</p></li><li><span>02</span><strong>Retain</strong><p>Keep relevant context within a bounded memory.</p></li><li><span>03</span><strong>Respond</strong><p>Decide when to stay silent, answer, or act.</p></li></ol>
+</section>
 
 <section id="publications" class="publications-section"><div class="section-title"><div><span class="section-index">02</span><h2>Selected publications</h2></div><span class="section-meta">2026 — 2027</span></div><div class="publication-controls"><div class="filters" role="group" aria-label="Filter publications"><button class="filter active" data-filter="all" aria-pressed="true">All <span>04</span></button><button class="filter" data-filter="systems" aria-pressed="false">Models & systems</button><button class="filter" data-filter="benchmarks" aria-pressed="false">Benchmarks</button></div><span id="result-count" aria-live="polite">4 publications</span></div>
 <!-- PUBLICATIONS_START -->
