@@ -1,64 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Source code optimized by a compiler into machine code for multiple processor targets">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f7ff"/><stop offset="1" stop-color="#eef0fb"/></linearGradient>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f7cff"/><stop offset="1" stop-color="#2647c9"/></linearGradient>
-    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22324f"/><stop offset="1" stop-color="#0f1b2d"/></linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1e3a8a" flood-opacity=".12"/></filter>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1L6 4L1 7" fill="none" stroke="#8aa3d6" stroke-width="1.6" stroke-linecap="round"/></marker>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAF9F5"/><stop offset="1" stop-color="#F0EEE6"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E39274"/><stop offset="1" stop-color="#C15F3C"/></linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2B2A27"/><stop offset="1" stop-color="#141413"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4A2E1E" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1L6 4L1 7" fill="none" stroke="#C2A891" stroke-width="1.6" stroke-linecap="round"/></marker>
   </defs>
   <rect width="480" height="300" fill="url(#bg)"/>
-  <circle cx="240" cy="150" r="110" fill="#4f7cff" opacity=".06"/>
+  <circle cx="240" cy="150" r="110" fill="#E39274" opacity=".06"/>
   <g font-family="'JetBrains Mono',Menlo,monospace">
-    <circle cx="32" cy="32" r="4" fill="#2f5bea"/>
-    <text x="44" y="36" font-size="11" letter-spacing="1.5" fill="#2f5bea">BISHENG COMPILER</text>
+    <circle cx="32" cy="32" r="4" fill="#D97757"/>
+    <text x="44" y="36" font-size="11" letter-spacing="1.5" fill="#D97757">BISHENG COMPILER</text>
   </g>
 
   <g filter="url(#shadow)">
     <rect x="30" y="80" width="138" height="146" rx="12" fill="#fff"/>
   </g>
-  <path d="M30 92A12 12 0 0 1 42 80H156A12 12 0 0 1 168 92V104H30Z" fill="#eef2fb"/>
-  <circle cx="46" cy="92" r="4" fill="#f87171"/><circle cx="59" cy="92" r="4" fill="#fbbf24"/><circle cx="72" cy="92" r="4" fill="#34d399"/>
+  <path d="M30 92A12 12 0 0 1 42 80H156A12 12 0 0 1 168 92V104H30Z" fill="#F0EEE6"/>
+  <circle cx="46" cy="92" r="4" fill="#C46686"/><circle cx="59" cy="92" r="4" fill="#D4A27F"/><circle cx="72" cy="92" r="4" fill="#98AC7C"/>
   <g stroke-linecap="round" stroke-width="6">
-    <path d="M46 124H78" stroke="#6d4ee0"/><path d="M86 124H128" stroke="#cbd5e1"/>
-    <path d="M58 142H90" stroke="#2f5bea"/><path d="M98 142H148" stroke="#cbd5e1"/>
-    <path d="M58 160H100" stroke="#14b8a6"/><path d="M108 160H130" stroke="#cbd5e1"/>
-    <path d="M70 178H118" stroke="#cbd5e1"/>
-    <path d="M58 196H86" stroke="#2f5bea"/>
-    <path d="M46 212H56" stroke="#6d4ee0"/>
+    <path d="M46 124H78" stroke="#B8865A"/><path d="M86 124H128" stroke="#D9D5C7"/>
+    <path d="M58 142H90" stroke="#D97757"/><path d="M98 142H148" stroke="#D9D5C7"/>
+    <path d="M58 160H100" stroke="#788C5D"/><path d="M108 160H130" stroke="#D9D5C7"/>
+    <path d="M70 178H118" stroke="#D9D5C7"/>
+    <path d="M58 196H86" stroke="#D97757"/>
+    <path d="M46 212H56" stroke="#B8865A"/>
   </g>
 
-  <path d="M178 153H198" stroke="#8aa3d6" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M178 153H198" stroke="#C2A891" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
 
   <g transform="translate(240 160)">
     <g>
       <circle r="34" fill="none" stroke="url(#blue)" stroke-width="11" stroke-dasharray="8.9 8.9"/>
       <circle r="29" fill="url(#blue)"/>
-      <circle r="11" fill="#f4f7ff"/>
+      <circle r="11" fill="#FAF9F5"/>
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
     </g>
   </g>
   <g transform="translate(270 112)">
     <g>
-      <circle r="17" fill="none" stroke="#14b8a6" stroke-width="7" stroke-dasharray="5.3 5.4"/>
-      <circle r="14" fill="#14b8a6"/>
-      <circle r="5" fill="#f4f7ff"/>
+      <circle r="17" fill="none" stroke="#788C5D" stroke-width="7" stroke-dasharray="5.3 5.4"/>
+      <circle r="14" fill="#788C5D"/>
+      <circle r="5" fill="#FAF9F5"/>
       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/>
     </g>
   </g>
-  <text x="240" y="228" text-anchor="middle" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#64748b">OPTIMIZE</text>
+  <text x="240" y="228" text-anchor="middle" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#73726C">OPTIMIZE</text>
 
-  <path d="M290 160H316" stroke="#8aa3d6" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M290 160H316" stroke="#C2A891" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
 
-  <rect x="366" y="102" width="70" height="70" rx="10" fill="#c7d2e8" opacity=".55"/>
-  <rect x="352" y="116" width="70" height="70" rx="10" fill="#aebde0" opacity=".7"/>
+  <rect x="366" y="102" width="70" height="70" rx="10" fill="#D9D5C7" opacity=".55"/>
+  <rect x="352" y="116" width="70" height="70" rx="10" fill="#C9C3B3" opacity=".7"/>
   <g filter="url(#shadow)">
-    <g stroke="#94a3c4" stroke-width="3" stroke-linecap="round">
+    <g stroke="#B3AD9C" stroke-width="3" stroke-linecap="round">
       <path d="M350 138V130M364 138V130M378 138V130M392 138V130M350 214V206M364 214V206M378 214V206M392 214V206M330 152H322M330 166H322M330 180H322M330 194H322M406 152H414M406 166H414M406 180H414M406 194H414"/>
     </g>
     <rect x="330" y="138" width="76" height="68" rx="10" fill="url(#chip)"/>
   </g>
-  <rect x="346" y="152" width="44" height="40" rx="6" fill="none" stroke="#4f7cff" stroke-width="1.5" opacity=".8"/>
+  <rect x="346" y="152" width="44" height="40" rx="6" fill="none" stroke="#E39274" stroke-width="1.5" opacity=".8"/>
   <text x="368" y="177" text-anchor="middle" font-family="'JetBrains Mono',Menlo,monospace" font-size="11" font-weight="600" fill="#fff">0101</text>
-  <text x="368" y="236" text-anchor="middle" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#64748b">DIVERSE TARGETS</text>
-  <text x="28" y="272" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#7a879b">SOURCE → IR OPTIMIZATION → MACHINE CODE</text>
+  <text x="368" y="236" text-anchor="middle" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#73726C">DIVERSE TARGETS</text>
+  <text x="28" y="272" font-family="'JetBrains Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#87867F">SOURCE → IR OPTIMIZATION → MACHINE CODE</text>
 </svg>

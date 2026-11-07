@@ -11,7 +11,7 @@ Selected work: AURA (ICLR 2027 submission), PhoStream (ICML 2026), X-Stream (ECC
 
 - `content.js`: verified paper metadata, authors, summaries, and links.- Run `node build.mjs` after changing paper metadata. This generates the publication section in `index.html`, so all papers remain readable without JavaScript and can be indexed.
 - `index.html`: biography, navigation, research focus, updates, and contact.
-- `style.css`: responsive academic layout, typography, and colors.
+- `style.css`: responsive academic layout, typography, and colors. The palette is inspired by Claude: warm ivory paper (`#FAF9F5`), clay accent (`#D97757`), olive and kraft secondaries, and Newsreader serif headings. All colors are CSS variables on `:root`, with a warm-charcoal dark theme (follows the system setting; the header button switches it and remembers the choice).
 - `script.js`: progressive enhancement for publication filters, navigation, the figure lightbox, and scroll reveal.
 - The research-focus diagram is an inline SVG in `index.html`.
 - `portrait.jpg`: owner-supplied original photo, converted from HEIC and resized proportionally. Metadata is not retained. No generative modification or cropping.

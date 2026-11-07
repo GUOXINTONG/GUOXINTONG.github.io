@@ -67,3 +67,23 @@ if ('IntersectionObserver' in window) {
     }
   });
 }
+
+const themeToggle = document.querySelector('.theme-toggle');
+if (themeToggle) {
+  const root = document.documentElement;
+  const media = window.matchMedia('(prefers-color-scheme: dark)');
+  const current = () => root.dataset.theme || (media.matches ? 'dark' : 'light');
+  const sync = () => {
+    const dark = current() === 'dark';
+    themeToggle.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+    themeToggle.setAttribute('aria-pressed', String(dark));
+  };
+  themeToggle.addEventListener('click', () => {
+    const next = current() === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    sync();
+  });
+  media.addEventListener?.('change', sync);
+  sync();
+}
