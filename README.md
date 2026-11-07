@@ -3,17 +3,16 @@
 Live site: https://guoxintong.github.io/
 Repository: https://github.com/GUOXINTONG/GUOXINTONG.github.io
 
-Research focus: **Streaming Video Understanding** with multimodal large language models.
+Research interests: **Streaming Video Understanding** (current) and **Omni full-duplex models** (next).
 
 Selected work: AURA (ICLR 2027 submission), PhoStream (ICML 2026), X-Stream (ECCV 2026), FastBench (ICLR 2027 submission; not an acceptance claim).
 
 ## Editing
 
 - `content.js`: verified paper metadata, authors, summaries, and links.- Run `node build.mjs` after changing paper metadata. This generates the publication section in `index.html`, so all papers remain readable without JavaScript and can be indexed.
-- `index.html`: biography, navigation, research focus, updates, and contact.
+- `index.html`: biography and research interests, navigation, updates, and contact.
 - `style.css`: responsive academic layout, typography, and colors. The palette is inspired by Claude: warm ivory paper (`#FAF9F5`), clay accent (`#D97757`), olive and kraft secondaries, and Newsreader serif headings. All colors are CSS variables on `:root`, with a warm-charcoal dark theme (follows the system setting; the header button switches it and remembers the choice).
 - `script.js`: progressive enhancement for publication filters, navigation, the figure lightbox, and scroll reveal.
-- The research-focus diagram is an inline SVG in `index.html`.
 - `portrait.jpg`: owner-supplied original photo, converted from HEIC and resized proportionally. Metadata is not retained. No generative modification or cropping.
 
 No dependencies are required. Preview with `python3 -m http.server 8000`.
