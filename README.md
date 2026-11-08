@@ -3,7 +3,7 @@
 Live site: https://guoxintong.github.io/
 Repository: https://github.com/GUOXINTONG/GUOXINTONG.github.io
 
-Research interests: **Streaming Video Understanding** (current) and **Omni full-duplex models** (next).
+Research interests: **Streaming Video Understanding** and **Omni full-duplex models** (both current).
 
 Selected work: AURA (ICLR 2027 submission), PhoStream (ICML 2026), X-Stream (ECCV 2026), FastBench (ICLR 2027 submission; not an acceptance claim).
 
